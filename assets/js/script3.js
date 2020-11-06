@@ -19,12 +19,12 @@ function suma() {
 }
 
 function resta() {
-    var sumFin = parseInt(valor1.value) - parseInt(valor2.value)
-    if (sumFin < 0) {
+    var resFin = parseInt(valor1.value) - parseInt(valor2.value)
+    if (resFin < 0) {
         resultado.innerHTML = `0`;
     }else{
         // console.log(sumFin)
-        resultado.innerHTML = `${sumFin}`;
+        resultado.innerHTML = `${resFin}`;
     }
     
 }
